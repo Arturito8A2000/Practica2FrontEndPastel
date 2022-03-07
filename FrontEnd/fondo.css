@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient( 64.3deg,  rgba(122, 135, 254, 0.81) 17.7%, rgba(255,206,134,1) 64.7%, rgba(172,253,163,0.64) 112.1% );
+}
+
+.Cabecera{
+    height:110px;
+    /*background-color: rebeccapurple;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo{
+    margin-left: 10%;
+    width:110px;height:110px;
+    float: left;
+}
+
+.Bienvenida{
+    height: 80px; width:200px;
+    margin-right: 70%;
+    text-align: center;
+    float: right;
+}
+
+main{
+    height:2000px;
+}
+
+.Chocolate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("1Chocolate.jpg");
+    background-size: cover;
+    width:100%;
+    
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.Pasteles{
+    height: 100px; width: 100%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.Pastel1, .Pastel2, .Pastel3, .Pastel4{
+    height: auto; width: 20%; min-width: 150px;
+}
+
+.pasteles1, .pasteles2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.butons1, .butons2{
+    color: white;
+    margin-top: 50px; margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+
+.boton1, .boton2, .boton3, .boton4{
+    width: 200px; height: 35px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton1 a, .boton2 a, .boton3 a, .boton4 a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+   
+}

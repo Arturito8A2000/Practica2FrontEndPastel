@@ -1,0 +1,33 @@
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 2vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+  font-size: max(25px, min(2vw, 80px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+  text-align: center;
+}
+
+h2{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Secular One', sans-serif;
+  font-size: 1vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+  font-size: max(10px, min(1vw, 40px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+  text-align: center;
+}
+  
+h3{
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
+  font-size: max(10px, min(5vw, 400px));
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+p{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Secular One', sans-serif;
+  font-size: 3vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+  font-size: max(30px, min(3vw, 50px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+  text-align: center;
+  background-color: transparent;
+}
